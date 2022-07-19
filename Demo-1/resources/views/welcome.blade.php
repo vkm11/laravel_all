@@ -122,8 +122,7 @@
                       
                         </div>
                         <a href="sample">go to sample page</a>
-                    <h1>Samplepage</h1>
-                    
+
                     
                     </div>
 
