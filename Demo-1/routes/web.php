@@ -2,12 +2,18 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 // Route:: get('sample', function(){
 //     return view('sample');  // http://127.0.0.1:8000/sample
 // });
+
+
+// redirect:- it will move to sample page
+Route:: get('/', function(){
+    return redirect('sample');  // http://127.0.0.1:8000/sample
+});
 
 // Route:: get('sample/{id}', function($id){
 //     echo $id;   // http://127.0.0.1:8000/sample/100
